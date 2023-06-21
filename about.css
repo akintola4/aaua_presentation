@@ -109,46 +109,6 @@ display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.info >h5{
-    font-weight: 900;
-    padding: 1% 0%;
-    font-size: 20px;
-    color: rgb(105, 65, 36);
-}
-.info2 >h5{
-    font-weight: 900;
-    padding: 1% 0%;
-    font-size: 20px;
-    color: rgb(105, 65, 36);
-}
-.content1{
-    display: flex;
-    flex-direction: row;
-    background: #fff;
-    margin: 1% 0%;
-    border-radius: 10px;
-    cursor: pointer;
-}
-.content1:hover{
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-}
-.heart{
-    padding: 3%;
-    color: rgb(105, 65, 36);
-    border: 2px solid rgb(105, 65, 36);
-    border-radius: 100px;
-}
-.heart:hover{
-background: rgb(105, 65, 36);
-color: #fff;
-}
-.info{
-    padding: 5%;
-    display: flex;
-    width: 60%;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
 .info2{
     padding: 5%;
     display: flex;
@@ -182,8 +142,9 @@ color: #fff;
     display: flex;
     flex-direction: column;
 }
-.about_company{
-    width: 50%;
+
+.about_company_title{
+    color: rgb(105, 65, 36);
 }
 
 h3{
@@ -195,6 +156,7 @@ h3{
 .company_info{
     text-align: justify;
     text-justify: inter-word;
+    width: 50%;
 } 
 .about_team{
     padding-top: 5%;
@@ -206,4 +168,35 @@ h3{
 .team_card{
     display: flex;
     padding-top: 5%;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.price >h5{
+    font-weight: 900;
+    padding: 5% 0%;
+    font-size: 20px;
+    color: rgb(105, 65, 36);
+}
+.content1{
+    width: 30%;
+    background: #fff;
+    margin: 3% 0%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.content1:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+.info{
+    padding: 3%;
 }
